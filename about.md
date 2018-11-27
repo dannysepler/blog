@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Picture](/blog/assets/profile.jpg){: .image }
 
-My name is Danny, and I'm currently a Software Engineer in New York City at [Flatiron Health][flatiron]. The words and thoughts I put here do not reflect those of my employer.
+My name is Danny, and I am a Software Engineer in New York City at [Flatiron Health][flatiron]. The words and thoughts I put here do not reflect those of my employer.
 
 This blog was made using [jekyll][jekyll].
 
