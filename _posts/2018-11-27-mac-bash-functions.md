@@ -67,8 +67,6 @@ function turn_off_proxy {
 
 ### Place it in your `~/.bash_profile`
 
-**Pro**: Easy calling of the function. Simply open up a fresh terminal window, and call `function_name` like so!
-
 *Function definition:*
 
 ```bash
@@ -77,13 +75,15 @@ function hello_world {
 }
 ```
 
-*Function call:*
+*Function call from terminal:*
 
 ```
 user@bash: hello_world
 Hello world!
 user@bash:
 ```
+
+**Pro**: Easy calling of the function. Simply open up a fresh terminal window, and call `function_name`!
 
 **Con**: Your bash profile is run each time a new terminal window is opened. So too many functions here can slow your terminal windows.
 
@@ -103,7 +103,7 @@ function hello_world {
 hello_world
 ```
 
-*Function call:*
+*Function call from terminal:*
 
 ```
 user@bash: ~/hello_world.sh
