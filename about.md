@@ -4,15 +4,26 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![Picture](/blog/assets/profile.jpg){: .image }
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Danny Sepler, and I am a Software Engineer in New York City at [Flatiron Health][flatiron]. The words and thoughts I place here do not reflect those of my employer.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+This blog was made using [jekyll][jekyll] and is hosted on [Github Pages][gh-pages].
+
+[flatiron]: https://flatiron.com/
+[jekyll]: https://jekyllrb.com/
+[gh-pages]: https://pages.github.com/
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+
+
+<style>
+	.image {
+		width: 50%;
+		min-width: 300px;
+		padding:1px;
+		background-color: grey;
+		border:1px solid #021a40;
+	}
+</style>
