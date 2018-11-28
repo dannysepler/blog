@@ -85,7 +85,7 @@ user@bash:
 
 **Pro**: Easy calling of the function. Simply open up a fresh terminal window, and call `function_name`!
 
-**Con**: Your bash profile is run each time a new terminal window is opened. So too many functions here can slow your terminal windows.
+**Con**: Your bash profile is run each time a new terminal window is opened. Too many functions here can slow your terminal.
 
 ### Call from a file
 
