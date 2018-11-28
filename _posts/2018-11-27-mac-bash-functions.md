@@ -5,9 +5,9 @@ date:   2018-11-27 23:45:29 -0500
 categories: bash mac
 ---
 
-*Disclaimer: This article is tailored towards other Mac programmers like myself.*
+*Disclaimer: Although this article is tailored towards other Mac programmers like myself, it is also applicable for Windows users with some tweaks in syntax.*
 
-Ever find yourself running the same command in your terminal window? I have found creating functions in my `.bash_profile` to be a major time-saver!
+Ever find yourself running the same command over and over in your terminal window? Bash functions can be a major time-saver!
 
 ## What is a bash function?
 
