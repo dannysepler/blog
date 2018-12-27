@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This was built using Jekyll.
+This was built using Jekyll. Jekyll is a really awesome static site generator you can build using only Markup.
 
 ### Instructions:
 
