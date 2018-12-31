@@ -184,7 +184,7 @@ def read_file_into_lyrics(file_name):
 
 	# Read and replace each contraction occurrence
 	for contraction, replacement in contractions.items():
-		file = file.replace(contraction, replacement)
+		lyrics = lyrics.replace(contraction, replacement)
 
 	return tokenizer.tokenize(lyrics)
 ```
