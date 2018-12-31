@@ -22,16 +22,16 @@ I will try to start as simply as possible in creating a solution, and build out 
 
 Let us first decide a text to work on. I chose the topical "thank u, next" by Ariana Grande. (Selfishly,) I am hoping it will lend this article some nice Search Engine Optimization for the next few months. Also, and probably more important, it is quite a good song.
 
-## Reading A File
+## Read the Song
 
-Let's start with a very simple file read. As this is fairly straightforward syntax, I will simply paste an example of how to do so here.
+Let's start by reading the file, returning a list of the lyrics used in the song.
 
 ```python
 import re
 
 # Open file and get all words inside of it
-def read_file_into_words(file_name):
-	words = []
+def read_file_into_lyrics(file_name):
+	lyrics = []
 	f = open(file_name, 'r')
 
 	# Any spaces, intentional or otherwise,
@@ -44,39 +44,42 @@ def read_file_into_words(file_name):
 	#     b) line in f
 	# because option b reads in the '\n' character
 
-	for line in text.read().splitlines():
-		for word in line.split(' '):
-			if not re.match(regex_blank, word):
-				words.append(word)
+	for line in f.read().splitlines():
+		for lyric in line.split(' '):
+			if not re.match(regex_blank, lyric):
+				lyrics.append(lyric)
 
-	return words
-
-# Call the function by...
-read_file_into_words('thank_u_next.txt')
+	return lyrics
 ```
 
-## Counting Word Occurrences
+## Count Word Frequency
 
-Now let's tally up all the number of occurrences of each word, and print out the results.
+Next, let's take our list of _all_ the lyrics used in the song, and count the frequency of each one.
 
 ```python
+from collections import Counter
+
 # Take all words in song, and count by occurrences
-def count_word_occurrences(words):
-	count = {}
-	
-	for w in words:
-		count[w] = 1 if w not in count else count[w] + 1
+def count_lyric_frequency(lyrics):
+	return dict(Counter(lyrics))
+```
 
-	return count
+## Display Results
 
+Finally, let's print our results, sorted by most common lyrics first.
+
+```python
 # Print out each word and its count, most to least often
-def display_word_count(word_map):
-
+def display(lyrics):
 	# Sort in reverse order by occurrence value
-	sort_words = sorted(word_map, key=word_map.get, reverse=True)
+	sort_lyrics = sorted(lyrics, key=lyrics.get, reverse=True)
+	for lyric in sort_lyrics:
+		print(lyric + ': ' + str(lyrics[lyric]))
 
-	for word in sort_words:
-		print(word + ': ' + str(word_map[word]))
+# Put it all together
+all_lyrics = read_file_into_lyrics('thank_u_next.txt')
+frequency = count_lyric_frequency(all_lyrics)
+display(frequency)
 ```
 
 ## Debugging
@@ -114,19 +117,18 @@ If only there were a tool to help us through some of this...
 
 ## Introducing the <span class="darkred">Natural</span> <span class="green">Language</span> <span class="navy">ToolKit</span>!
 
-The work we just performed was a naive implementation of breaking down a wall of text into usable words. Python's _Natural Language ToolKit_ is a comprehensive tool to solve problems just like this one. Simply importing the toolkit, we can use a Regular Expression Tokenizer to swap out our `read_file_into_words` function for a much more concise:
+The work we just performed was a naive implementation of breaking down a wall of text into usable words. Python's _Natural Language ToolKit_ is a comprehensive tool to solve problems just like this one. Simply importing the toolkit, we can use a Regular Expression Tokenizer to swap out our `read_file_into_words` function for a _much_ more concise:
 
 ```python
 from nltk.tokenize import RegexpTokenizer
 tokenizer = RegexpTokenizer(r'\w+') # "\w" means a-z, A-Z, 0-9, and _
 
-def read_file_into_words(file_name):
-	f = open(file_name, 'r')
-	text = tokenizer.tokenize(f.read())
-	return [word.lower() for word in text]
+def read_file_into_lyrics(file_name):
+	lyrics = open(file_name, 'r').read().lower()
+	return tokenizer.tokenize(lyrics)
 ```
 
-With this, we can solve all four of the problems we identified.
+Isn't that so much simpler! And more effective. With the aid of a tokenizer, we can solve all four of the problems we identified.
 
 ```
 next: 42
@@ -145,6 +147,52 @@ As you can see, many of our word counts jumped drastically! "Next" jumped from 2
 
 You may be asking, _What is a "Tokenizer"?_ A Tokenizer is a tool to separate an entity into small chunks using simple criteria. For the purpose of this example, we use a token to be any sort of text that does not follow the `\w` Regular Expression pattern. Mainly, any non-alphanumeric character will be split.
 
+## Great, But What About Contractions?
+
+As you can see in the list, some elements: `m` and `ve` for instance, seem to be the result of contractions. Using a tokenizer, the word `I've` was split into `I` and `ve`. While `I` is appropriate, `ve` should have been changed to `have`.
+
+Given that the number of contractions is relatively small, we can use a configurable system to replace any occurrences of contractions with the two words they represent. For configurable code, I find YAML to be an effective pair with Python.
+
+A file such as this can be used to split apart such instances.
+
+`contractions.yml`
+
+```
+# Contraction : Replacement
+i'd           : i would
+i'll          : i will
+i'm           : i am
+i've          : i have
+she's         : she is
+he's          : he is
+wasn't        : was not
+that's        : that is
+ain't         : am not
+havin'        : having
+gon'          : going to
+bout          : about
+isn't         : isn't
+it's          : it is
+```
+
+```python
+import yaml
+contractions = yaml.load(open('contractions.yml', 'r'))
+
+def read_file_into_lyrics(file_name):
+	lyrics = open(file_name, 'r').read().lower()
+
+	# Read and replace each contraction occurrence
+	for contraction, replacement in contractions.items():
+		file = file.replace(contraction, replacement)
+
+	return tokenizer.tokenize(lyrics)
+```
+
+## Conclusion
+
+Given a piece of text, we are now able to more effectively count the proximity of each word. There looms another question: how do we get our song text? Next post, I will show how to get a sample source of song data integrated into this system.
+
 <style>
 	.text-center {
 		display: block;
@@ -152,8 +200,8 @@ You may be asking, _What is a "Tokenizer"?_ A Tokenizer is a tool to separate an
 	}
 
 	.darkred { color: darkred; }
-	.green { color: green; }
-	.navy { color: navy; }
+	.green   { color: green;   }
+	.navy    { color: navy;    }
 
 	.center {
 		display: block;
