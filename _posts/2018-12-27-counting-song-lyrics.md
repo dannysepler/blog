@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Reading Song Lyrics"
+title:  "Lyrics Project Part 1: Counting Song Lyrics"
 date:   2018-12-26 23:45:29 -0500
 categories: python nltk lyrics
 ---
 
-*This will probably be a multi-part blog post about making sense of text inputs.*
+*This will be a multi-part blog post about making sense of text inputs.*
 
 ![Picture](/blog/assets/img/in_my_life.jpg){: .image .center }
 _"In My Life" -- a personal favorite._{: .text-center }
@@ -14,13 +14,13 @@ _"In My Life" -- a personal favorite._{: .text-center }
 
 We're starting this blog post with a simple question: _How can I use code find the most popular words in a song?_
 
-Although I will be using musical lyrics as an example, this is a larger example of working with messy textual inputs. When time permits, I can dive deeper into this subject.
+Although we will be using musical lyrics as an example, this is a larger example of working with messy textual inputs. When time permits, we can dive deeper into this subject.
 
-I will try to start as simply as possible in creating a solution, and build out complexities in scope and language from there. All coding will occur in Python. All song lyrics are borrowed from [AZ Lyrics](http://azlyrics.com) as well as the artists themselves, and I take no ownership of them whatsoever.
+We can try to start as simply as possible in creating a solution, and build out complexities in scope and language from there. All coding will occur in Python. All song lyrics are borrowed from [AZ Lyrics](http://azlyrics.com) as well as the artists themselves, and I take no ownership of them whatsoever.
 
 ## Before We Begin
 
-Let us first decide a text to work on. I chose the topical "thank u, next" by Ariana Grande. (Selfishly,) I am hoping it will lend this article some nice Search Engine Optimization for the next few months. Also, and probably more important, it is quite a good song.
+Let us first decide a text to work on. I chose the topical "thank u, next" by Ariana Grande. (Selfishly,) I am hoping it will lend this article some nice Search Engine Optimization for the next few months. Also, and probably more important, it is quite a good song and a fun one to work with.
 
 ## Read the Song
 
