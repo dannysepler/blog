@@ -7,7 +7,7 @@ categories: python nltk lyrics
 
 *This will be a multi-part blog post about making sense of text inputs.*
 
-![Picture](/blog/assets/img/in_my_life.jpg){: .image .center }
+![Picture](/assets/img/in_my_life.jpg){: .image .center }
 _"In My Life" -- a personal favorite._{: .text-center }
 
 ## Introduction
