@@ -1,7 +1,7 @@
 ---
 layout: external
 title: Personal Site
-external_url: https://dannysepler.com
+external_url: http://dannysepler.com
 
 ---
 
