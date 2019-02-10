@@ -12,10 +12,10 @@ sudo gem install bundler
 bundle install # Takes some time
 
 # Give access to build.sh file
-chmod +x build.sh
+chmod +x build
 
 # Run
-./build.sh
+./build
 ```
 
 ### Troubleshooting

@@ -16,11 +16,11 @@
 title: Danny's Blog
 email: dannysepler@gmail.com
 description: #>- # this means to ignore newlines until "baseurl:"
-  These are things I think about! Feel free to drop me a line
-  if there's a topic you think I should cover.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://blog.dannysepler.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  dannysepler
+  Things I think about!
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://blog.dannysepler.com # the base hostname & protocol for your site, e.g. http://example.com
+github_username: dannysepler
+enforce_ssl: blog.dannysepler.com
 
 # Build settings
 markdown: kramdown
