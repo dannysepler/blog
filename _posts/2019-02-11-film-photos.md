@@ -11,7 +11,7 @@ I was going through some old photos recently, and found that my disposable camer
 
 ![chocorua](/assets/img/mt_chocorua.jpg){: .image .center }
 
-This was from a trip where a group and I climbed to the top of a mountain, and to our dismay there was nothing but fog in every direction. We had spent the past day and a half on the trail on the way up, and had no view to show for it. There was another day and a half to go back down. At the moment, it seemed like it was all for nothing.
+This was from a trip where a group and I climbed to the top of a mountain, and to our dismay there was nothing but fog in every direction. We had spent the past day and a half on the trail on the way up, and had no view to show for it. To make matters worse, there was another day and a half to go back down. At the moment, it seemed like the whole trek was for nothing.
 
 We had lunch at the top of the summit. As we were reluctantly about to head down, a tiny patch of blue appeared overhead. Soon after, the entire cloud blocking our view passed and we could see for miles. Funny enough, I forgot to snap a picture after the cloud dissipated; yet, I can't help but think now that this photo is more notable than a photo with the clear sky could have ever been.
 
