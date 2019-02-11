@@ -56,7 +56,7 @@ As the scope of your project gets larger, you may want to transition to more of 
 
 ## Learning More
 
-I don't think I can do a better overview of all of csvkit's features than its [official tutorial](https://csvkit.readthedocs.io/en/1.0.3/tutorial/1_getting_started.html), which even guides you through a real-world example. Give it a shot, and see how you like it for yourself!
+I don't think I can do a better overview of all of csvkit's features than its [official tutorial](https://csvkit.readthedocs.io/en/1.0.3/tutorial/1_getting_started.html), which guides you through a much more in depth real-world example. Give it a shot, and see how you like it for yourself!
 
 
 <style>
