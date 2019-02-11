@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Mac bash functions"
+title:  "How bash functions can save you time"
 date:   2018-11-27 23:45:29 -0500
-categories: bash mac
+categories: bash
 ---
 
 *Disclaimer: Although this article is tailored towards other Mac programmers like myself, it is also applicable for Windows users with some tweaks in syntax.*
