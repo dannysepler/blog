@@ -23,7 +23,7 @@ We had lunch at the top of the summit. As we were reluctantly about to head down
 
 ![neel's gap](/assets/img/neels_gap.jpg){: .image .center }
 
-I don't have as much of a story for these two, but this is at around the start of the Appalachian Trail in Georgia. For someone brave enough to go through the whole trail, it must be amazing to witness many other sunsets just like this one.
+I don't have as much of a story for these two, but they're from around the start of the Appalachian Trail in Georgia. For someone brave enough to go through the whole trail, it must be amazing to witness many other sunsets just like this one.
 
 <style>
 	.center {
