@@ -15,7 +15,7 @@ _(If you don't have csvkit installed, you can do so through `sudo pip install cs
 
 1. Download sample movie data
 ```bash
-curl -L -O https://raw.githubusercontent.com/dannysepler/blog/gh-pages/assets/data/movies.xlsx
+curl -L -O https://raw.githubusercontent.com/dannysepler/blog/master/assets/data/movies.xlsx
 ```
 2. Turn it from an Excel Spreadsheet into a CSV document
 ```bash

@@ -24,7 +24,7 @@ Let us first decide a text to work on. I chose the topical "thank u, next" by Ar
 
 ## Read the Song
 
-Let's start by reading the file, returning a list of the lyrics used in the song.
+Let's start by reading a file of lyrics, returning a list of the lyrics used in the song.
 
 ```python
 import re
@@ -66,7 +66,11 @@ def count_lyric_frequency(lyrics):
 
 ## Display Results
 
-Finally, let's print our results, sorted by most common lyrics first.
+Finally, let's print our results, sorted by most common lyrics first. If you would like the same file I worked with, feel free to grab it by the following cURL:
+
+```bash
+curl -L -O https://raw.githubusercontent.com/dannysepler/blog/master/assets/data/thank_u_next.txt
+```
 
 ```python
 # Print out each word and its count, most to least often
