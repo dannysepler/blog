@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lyrics Project Part 1: Counting Song Lyrics"
+title:  "Lyrics project part 1: counting song lyrics"
 date:   2018-12-26 23:45:29 -0500
 categories: python nltk lyrics
 ---

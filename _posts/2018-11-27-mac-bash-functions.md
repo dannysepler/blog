@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mac Bash Functions"
+title:  "Mac bash functions"
 date:   2018-11-27 23:45:29 -0500
 categories: bash mac
 ---

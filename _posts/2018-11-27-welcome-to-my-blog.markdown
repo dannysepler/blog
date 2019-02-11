@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome To My Blog!"
+title:  "Welcome to my blog!"
 date:   2018-11-27 13:37:29 -0500
 categories: intro
 ---
