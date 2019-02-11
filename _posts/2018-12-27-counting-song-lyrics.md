@@ -66,11 +66,7 @@ def count_lyric_frequency(lyrics):
 
 ## Display Results
 
-Finally, let's print our results, sorted by most common lyrics first. If you would like the same file I worked with, feel free to grab it by the following cURL:
-
-```bash
-curl -L -O https://raw.githubusercontent.com/dannysepler/blog/master/assets/data/thank_u_next.txt
-```
+Finally, let's print our results, sorted by most common lyrics first.
 
 ```python
 # Print out each word and its count, most to least often
@@ -84,6 +80,12 @@ def display(lyrics):
 all_lyrics = read_file_into_lyrics('thank_u_next.txt')
 frequency = count_lyric_frequency(all_lyrics)
 display(frequency)
+```
+
+_If you would like the same file I worked with, feel free to grab it by the following cURL:_
+
+```bash
+curl -L -O https://raw.githubusercontent.com/dannysepler/blog/master/assets/data/thank_u_next.txt
 ```
 
 ## Debugging
