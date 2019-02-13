@@ -5,7 +5,7 @@ date:   2019-02-11 01:45:29 -0500
 categories: photos
 ---
 
-I was going through some old photos recently, and found that my disposable camera captured these moments so well! Most of these are from hiking trips of some sort -- but doesn't the haziness of a film photo make a landscape come alive?
+I was going through some old photos recently, and found that my disposable camera captured these moments so well! All of these are from hiking trips of some sort -- but doesn't the haziness of a film photo make a landscape come alive?
 
 ## Mount Chocorua (NH)
 
