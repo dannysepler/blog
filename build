@@ -3,4 +3,4 @@ rm -Rf _site/
 bundle exec jekyll serve --incremental &
 	# & = don't wait for first command to finish
 
-open -na "Google Chrome" --args "http://localhost:4000" --incognito
+# open -na "Google Chrome" --args "http://localhost:4000" --incognito
