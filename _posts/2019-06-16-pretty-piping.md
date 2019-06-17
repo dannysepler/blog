@@ -16,7 +16,7 @@ We're going to work with a dataset I'm particularly excited about exploring: res
 curl -o complaints.csv https://data.cityofnewyork.us/api/views/43nn-pn8j/rows.csv
 ```
 
-Feel free to check everything download properly! A quick `cat complaints.csv | wc -l` should give about 380,000 rows
+Feel free to check everything download properly! A quick `wc -l complaints.csv` should give about 380,000 rows
 
 ## Why even do this?
 
@@ -42,7 +42,7 @@ function csv_as_table {
  grep "BURGER KING" complaints.csv | csv_as_table
  ```
 
-(Use the arrow keys to go left and right. Use Space and B to go up and down.)
+(Use the arrow keys to go left and right. Use B and Space to scroll up and down.)
 
 ## Rainbow CSVs (from the CLI)
 
@@ -53,5 +53,5 @@ TBD
 Sublime Text has a great [Rainbow CSV plugin](https://github.com/mechatroner/sublime_rainbow_csv) that you could just pipe your results to.
 
 ```bash
-cat complaints.csv | sublime
+sublime complaints.csv
 ```
