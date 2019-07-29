@@ -37,7 +37,7 @@ categories: quiz
 
 <div class="quiz-result"></div>
 
-Refresh the page to try again!
+**Refresh the page to try again!**
 
 <br/>
 
