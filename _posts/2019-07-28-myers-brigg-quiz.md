@@ -39,8 +39,6 @@ categories: quiz
 
 **Refresh the page to try again!**
 
-<br/>
-
 *Most of this work was borrowed.* Thank you to [this Codepen](https://codepen.io/tgallimore/pen/xwGOXB) for the code template, and to [this article](https://www.fromthegrapevine.com/arts/which-celebritys-personality-do-you-have) for the content.
 
 A disclaimer: I don't have 100% confidence in these answers since there's no citation from the site. The authors could have just mapped *likely* personality types to each celebrity based on that celebrity's public image. If there ever is a site with more accurate sources, I'd be happy to switch the underlying form answers!
