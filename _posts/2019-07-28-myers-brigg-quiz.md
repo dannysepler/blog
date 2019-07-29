@@ -56,13 +56,14 @@ body {
   padding:0 30px 20px 30px;
   max-width:960px;
   margin:0 auto;
-  
-  ul {
-    list-style:none;
-    padding:0;
-    margin:0;
-  }
 }
+
+.quiz ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
 .quiz-question {
   font-weight:bold;
   display:block;
