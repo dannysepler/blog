@@ -37,7 +37,7 @@ categories: quiz
 
 <div class="quiz-result"></div>
 
-**Refresh the page to try again!**
+**<a href="">Refresh</a> the page to try again!**
 
 *Most of this work was borrowed.* Thank you to [this Codepen](https://codepen.io/tgallimore/pen/xwGOXB) for the code template, and to [this article](https://www.fromthegrapevine.com/arts/which-celebritys-personality-do-you-have) for the content.
 
@@ -235,7 +235,6 @@ var Quiz = function(){
     var random = Math.floor(Math.random() * nCelebrities);
     self.celebrity = this.celebrities[random];
     $('.celebrity-name').html(self.celebrity.name);
-    // $('.celebrity-image').attr('href', self.celebrity.image);
     $('.celebrity-image').attr('src', self.celebrity.image);
   }
   this._calcResult = function(){
