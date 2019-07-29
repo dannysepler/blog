@@ -78,7 +78,7 @@ body {
   cursor: pointer;
 }
 
-.quiz-answer.hover {
+.quiz-answer:hover {
   background:#eee;
 }
   
