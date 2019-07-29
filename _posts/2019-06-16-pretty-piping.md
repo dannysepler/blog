@@ -44,14 +44,6 @@ function csv_as_table {
 
 (Use the arrow keys to go left and right. Use B and Space to scroll up and down.)
 
-## Rainbow CSVs (from the CLI)
-
-TBD
-
-## Alternatives
+## Rainbow CSVs
 
 Sublime Text has a great [Rainbow CSV plugin](https://github.com/mechatroner/sublime_rainbow_csv) that you could just pipe your results to.
-
-```bash
-sublime complaints.csv
-```

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 ![Picture](/assets/img/profile.jpg){: .image }
