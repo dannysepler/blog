@@ -7,20 +7,24 @@ categories: cancer
 
 ## Introduction
 
-Ever since I started at Flatiron Health, I've been meaning to learn more about cancer. I'll be collecting reading materials here. Please reach out if there's something good left out of this particular list! I'll try to cover both meaningful and informational content, and subdivide where relevant.
+Ever since I started at Flatiron Health, I've been meaning to learn more about cancer. I'll be collecting reading materials in this post. Please reach out if there's something good left out of this particular list! I'll try to cover both meaningful and informational content, and subdivide where relevant.
 
 # On the history
 
-- **Emperor of all maladies** (novel), Siddhartha Mukherjee
+- **Emperor of all maladies** (novel), by Siddhartha Mukherjee
 
    This book can serve as the start to a long learning journey about the disease. Informational yet personal, it focuses on the people and history of the disease, coloring these stories with clinical content. The book focuses on [Sidney Farber][sidney-farber] in particular as a hero of sorts -- a figure who made clinical advances, and pioneered important fundraising efforts. The book holds back few punches, as Mukherjee highlights meaningful advances and discredits approaches that did more harm than good (like once-fashionable radical surgeries).
 
-   Noticeably missing from this book is content on immunotherapy, which was glazed over towards the last few chapters. (Mukherjee has another book called The Gene, which may cover more in that realm.)
+- **The Breakthrough: Immunotherapy and the Race to Cure Cancer** (novel), by Charles Graeber
+
+   Noticeably missing from Emperor of all Maladies was information on Immunotherapy, which was glazed over only at the last few chapters. (Mukherjee has another book called The Gene, which might cover more.) Though I haven't read The Gene, I can't recommend The Breakthrough enough. It touched on both the history of immunotherapy as well as the science behind it, and was a captivating read.
+
+   I am always surprised by how field-changing science can be rejected at its start, and the novel's coverage of how [Coley's Toxins][coleys-toxins] were rejected by practitioners at the time was fascinating.
 
 
 
 
-# On mortality
+# On being a patient
 
 - **Various reflections** (articles), by Oliver Sacks
 
@@ -36,6 +40,7 @@ Ever since I started at Flatiron Health, I've been meaning to learn more about c
 
 
 [sidney-farber]: https://en.wikipedia.org/wiki/Sidney_Farber
+[coleys-toxins]: https://en.wikipedia.org/wiki/Coley%27s_toxins
 [my-own-life]: https://www.nytimes.com/2015/02/19/opinion/oliver-sacks-on-learning-he-has-terminal-cancer.html
 [my-periodic-table]: https://www.nytimes.com/2015/07/26/opinion/my-periodic-table.html
 [sabbath]: https://www.nytimes.com/2015/08/16/opinion/sunday/oliver-sacks-sabbath.html
